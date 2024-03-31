@@ -8,12 +8,13 @@
      rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
      crossorigin="anonymous">
     <style>
+      
         .thumnail{
             border-radius:10px;
         }
         .text-dim
         {
-            color:#aaaaaa;
+            color:#000;
         }
         .seprator-circle
         {
@@ -28,13 +29,60 @@
 
     </style>
 </head>
-<body class="bg-dark">
+<body >
+  <nav class="navbar navbar-expand-lg bg-warning"data-bs-theme="light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">You Tube Clone</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                    >    
+                    
+                        Courses
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">C Programming</a></li>
+                        <li><a class="dropdown-item" href="#">C++ Programming</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">ICP-8.0</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+</nav>
+
+
+</body>
+<div data-bs-theme="dark">
     <div class="container">
      <div class="row">
 
 
           <div class="col-md-4">
-           <div class="video-card text-light">
+           <div class="video-card text-dark">
                <img src=".\images\alfu.webp" class="img-fluid m-3 video-card-thumnail rounded-2"/>
                  <div  class="d-flex">
                 <div>
@@ -46,6 +94,7 @@
                   <span class="text-dim">110 views </span>
                   <span class="text-dim mx-2  seprator-circle">●</span>
                    <span class="text-dim">5 month ago </span>
+                 
       </div>
        </div>
        </div>
@@ -54,7 +103,7 @@
        
 
     <div class="col-md-4 ">
-        <div class="video-card text-light">
+        <div class="video-card text-dark">
             <img src=".\images\road.jpg" class="img-fluid m-3 video-card-thumnail rounded-2"/>
               <div  class="d-flex">
              <div>
@@ -73,7 +122,7 @@
 
 
  <div class="col-md-4">
-    <div class="video-card text-light">
+    <div class="video-card text-dark">
         <img src=".\images\spoken.jpg" class="img-fluid m-3 video-card-thumnail rounded-2"/>
           <div  class="d-flex">
          <div>
@@ -92,7 +141,7 @@
 
 
 <div class="col-md-4">
-    <div class="video-card text-light">
+    <div class="video-card text-dark">
         <img src=".\images\panipuri.jpg" class="img-fluid m-3 video-card-thumnail rounded-2"/>
           <div  class="d-flex">
          <div>
@@ -111,7 +160,7 @@
 
 
 <div class="col-md-4">
-    <div class="video-card text-light">
+    <div class="video-card text-dark">
         <img src=".\images\paython.jpg" class="img-fluid m-3 video-card-thumnail rounded-2"/>
           <div  class="d-flex">
          <div>
@@ -130,7 +179,7 @@
 
 
 <div class="col-md-4">
-    <div class="video-card text-light">
+    <div class="video-card text-dark">
         <img src=".\images\c-programming.jpg" class="img-fluid m-3 video-card-thumnail rounded-2"/>
           <div  class="d-flex">
          <div>
